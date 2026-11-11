@@ -1,0 +1,16 @@
+BAUMANAGER RÜEGGISBERG – VERSION 1.3 – HTTPS/PWA
+
+1. VORHER: Öffne die bisherige Version und exportiere unter Übersicht eine JSON-Datensicherung. Bewahre diese Datei sicher auf. Daten werden NICHT automatisch auf die neue Internetadresse übertragen.
+2. Erstelle auf github.com ein Konto (falls noch keines vorhanden ist).
+3. Erstelle ein neues Repository, z. B. baumanager-rueeggisberg. Wähle PUBLIC. Achtung: Der gesamte hochgeladene App-Quellcode ist damit öffentlich. Keine privaten Dokumente, JSON-Sicherungen oder Bilder in das Repository hochladen!
+4. Lade die EINZELNEN DATEIEN aus dem Ordner baumanager (index.html, sw.js, manifest.webmanifest, icon-192.png, icon-512.png, .nojekyll) ins Hauptverzeichnis des Repositorys hoch und committe sie. Alternativ: GitHub Pages aus dem Ordner /docs aktivieren, falls du die Dateien dort platzierst.
+5. Unter Settings > Pages: Build and deployment > Deploy from a branch > main / (root) > Save. Warte auf die bereitgestellte HTTPS-Adresse.
+6. Öffne diese Adresse in Safari (nicht die lokale index.html in der Dateien-App). Exportierte JSON-Sicherung über die Importfunktion laden.
+7. In Safari: Teilen > Zum Home-Bildschirm.
+8. Die PDF-Offerten über 'PDF öffnen / sichern' und 'PDF in neuem Tab öffnen' anzeigen. Falls nötig 'PDF herunterladen' verwenden.
+
+WICHTIG: GitHub Pages hostet NUR die App-Dateien. Projektdaten, Bilder und PDFs bleiben lokal im Browser auf JEDEM Gerät und werden NICHT zwischen Geräten synchronisiert. Safari kann lokale Daten löschen; regelmässig JSON exportieren. Ein privates Repository ist bei kostenlosen Konten nicht in allen GitHub-Pages-Konstellationen möglich. Auch bei einem privaten Repository kann die veröffentlichte Pages-Seite öffentlich sein.
+
+OFFLINE: Nach erfolgreichem Laden über HTTPS kann die App dank Service Worker offline starten. Dies ist kein Ersatz für Backups.
+
+LIMITS: PDF max. 2 MB pro Offerte; Speicherung in localStorage kann bei mehreren PDFs/Bildern scheitern. Keine vertraulichen Dokumente auf öffentlichen Server hochladen. Kein Login und keine gemeinsame Cloud-Datenbank vorhanden.
